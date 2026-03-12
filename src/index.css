@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif SC", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  
+  --color-warm-bg: #FDFBF7;
+  --color-warm-card: #FFFFFF;
+  --color-warm-text: #2C2A29;
+  --color-warm-muted: #8A8580;
+  --color-warm-accent: #D4A373;
+  --color-warm-accent-hover: #C08D5D;
+  --color-warm-border: #EAE6DF;
+  
+  --color-nvc-obs: #8AB0AB;
+  --color-nvc-feel: #E6A57E;
+  --color-nvc-need: #D9B44A;
+  --color-nvc-req: #7E998A;
+}
+
+body {
+  background-color: var(--color-warm-bg);
+  color: var(--color-warm-text);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-serif {
+  font-family: var(--font-serif);
+}

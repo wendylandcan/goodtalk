@@ -1,0 +1,5 @@
+{
+  "name": "高情商表达转换器",
+  "description": "基于非暴力沟通 (NVC) 框架，将日常表达转化为高情商、有温度的沟通方式。",
+  "requestFramePermissions": ["microphone"]
+}
